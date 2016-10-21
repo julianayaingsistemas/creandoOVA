@@ -407,6 +407,7 @@ nav{
 	border-radius: 0px 0px 10px 10px;
 	color: #006680;
 }
+
 ul{
 margin: auto;
 padding-top: 4px;
@@ -420,6 +421,15 @@ li{
 	border-radius: 7px;
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
+}
+
+nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 120px;
+}
+nav li:hover > ul{
+	display: list-item;
 }
 section{
 	width: 713px;
